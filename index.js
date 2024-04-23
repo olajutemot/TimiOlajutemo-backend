@@ -43,25 +43,9 @@ app.get("/", (req, res) => {
 app.get("/blogcategories", async (req, res) => {
   const blogCategories = [
     "Technology Trends",
-    "Health and Wellness",
-    "Travel Destinations",
-    "Food and Cooking",
-    "Personal Finance",
-    "Career Development",
-    "Parenting Tips",
-    "Self-Improvement",
-    "Home Decor and DIY",
-    "Book Reviews",
-    "Environmental Sustainability",
-    "Fitness and Exercise",
-    "Movie and TV Show Reviews",
-    "Entrepreneurship",
-    "Mental Health",
-    "Fashion and Style",
-    "Hobby and Crafts",
-    "Pet Care",
-    "Education and Learning",
-    "Sports and Recreation",
+    "Productivity",
+    "Personal",
+    "Coding",
   ];
   res.json({
     message: "Categories fetched successfully",
