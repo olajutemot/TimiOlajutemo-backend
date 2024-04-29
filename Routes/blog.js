@@ -41,7 +41,7 @@ router.get("/test", authTokenHandler, async (req, res) => {
 });
 
 // Create a new blog post
-router.post("/", authTokenHandler, async (req, res) => {
+router.post("/", async (req, res) => {
   try {
     const { title, description, imageUrl, content, category } = req.body;
     // console.log(title, description, imageUrl, paragraphs, category);
